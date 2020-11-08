@@ -1,0 +1,218 @@
+.left{
+	float:left;
+	width=60%;
+	display:flex;
+	height:80rem;
+	background-color:white;
+	left:0;
+	padding-top:4rem;
+}
+
+#main{
+    margin:0;
+    padding:0;
+    box-sizing:inherit;
+    z-index:1;
+    top: 0;
+    overflow-x:hidden;
+    padding-top:20px;
+     display:flex;
+
+}
+html{
+    font-size:10px;
+    box-sizing:border-box;
+}
+img{
+    width;100%;
+    max-width:100%;
+    height:100%;
+}
+a{
+    text-decoration:none;
+}
+body{
+    background-color:white;
+}
+
+#example2{
+      width:20rem;
+      height:16rem;
+}
+.sub{
+    right:0;
+    width:40%;
+    height:40rem;
+    display:flex;
+    flex-direction:column;
+    justify-content: space-between;
+    padding-top: 4rem;
+    float:right;
+    
+}
+.sub{
+  width=100%;
+  max-width: 93.5rem;
+  margin: 3rem auto 0;  
+}
+#wrapper > .sub{
+    display: flex;
+    padding-top: 0 8rem;
+    
+}
+.form{
+    width: 100%;
+    max-width: width 35rem;
+    margin-top: 3rem;
+}
+.form form{
+    background-color: white;
+    border: 2px solid;
+    border-color:#eee;
+    display: flex;
+    flex-direction: column;
+    padding: 2rem 4rem;
+    text-align:center;
+}
+.logo img{
+    widows: 17.5rem;
+    margin-bottom: 2.5rem;
+}
+.form form input{
+    padding: 0.8rem;
+    margin-bottom: 0.5rem;
+   
+    border-color:#eee;
+    border-radius: .4rem;
+}
+.button{
+    margin: 1rem 0 1.5rem;
+    height: 3.5rem;
+    background-color: dodgerblue;
+    font-size: 1.4rem;
+    color: white;
+    font-weight: bold;
+    border: none;
+    border-radius: 4rem;
+    cursor: pointer;
+}
+
+.fb{
+    font-size: 2.0rem;
+    font-weight: bold;
+    color: navy;
+    margin-bottom: 2.5rem;
+}
+.fb i{
+    font-size: 3.1rem;
+    margin-right: .7rem;
+}
+.password{
+    font-size: 1.5rem;
+    color:darkslategrey;
+}
+.sign-up{
+    text-align: center;
+    font-size: 1.4rem;
+    color: #262626;
+    padding: 2rem 0;
+    background-color: white;
+    border: 2px solid; 
+    border-color:#eee;
+    margin: 1rem 0;
+}
+.sign-up{
+    color:#3897f0;
+    font-weight: bold;
+}
+.app{
+    font-size: 2.4rem;
+    text-align: center;
+
+}
+.app span{
+    display: block;
+    margin: 2px 0;
+    color:brown; 
+    text-decoration:underline;   
+}
+.badges img{
+    max-width: 14rem;
+    cursor: pointer;
+}
+.badges img:first-child{
+    margin-right: 1rem;
+}
+footer {
+    
+       padding: 5px 0;
+    display:flex;
+    justify-content: space-between;
+    font-weight: bold;
+    font-size: 1.4rem;
+    flex-wrap: wrap;
+    margin-top: 0;
+    display:flex;
+    margin-right: 1.6rem;
+    color:black;
+    text-decoration:underline; 
+
+}
+.copyright:{
+    color:black;
+}
+@media screen and (max-width:900px){
+.form{
+    margin: 0 auto;
+}
+.sub{
+padding:0;
+width:100%;
+}
+.container{
+padding:0;
+}
+.f{
+justify-content:center;
+}
+.copyright{
+text-align:center;
+}
+left{
+width:100%;
+padding-top:5%;
+
+}
+#main{
+flex-flow: column;
+        width: auto;
+        max-height: fit-content;
+}
+}
+@media screen and (max-height:640px){
+left{
+	padding-top:10%;
+height:auto;
+vertical-align:middle;
+}
+.sub{
+height:unset;
+}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
